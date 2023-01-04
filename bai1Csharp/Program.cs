@@ -148,6 +148,37 @@ namespace bai1Csharp
 
             //}
             //Console.WriteLine("Gia sao thue la :" + price);
+
+
+            //Bài 13: 
+            //bafi1: Viết chương trình tính tổng. in ra Sum<a> ,
+
+            Console.Write("Input a:");
+            double a=double.Parse(Console.ReadLine());
+            Console.Write("Input b:");
+            double b = double.Parse(Console.ReadLine());
+            double total = a + b;
+             Console.WriteLine("Bai 1:Sum of " + a  + "and " + b + "is:" + total);
+
+
+            //Bai 2:
+            Console.Write("Nhap FullName:");
+           string FullName= Console.ReadLine();
+            Console.Write("Nhap sdt:");
+            string Phone = Console.ReadLine();
+            Console.Write("Nhap gioi tinh:");
+            string Sex = Console.ReadLine();
+
+            Console.WriteLine("Ho va ten: " + FullName + "----" + "SDT:" + Phone + "---" + "Gioi tinh:" + Sex);
+
+
+            //Bai3:Tinh dien tich hinh troin voi ban klinh nhap vao ban phim.
+            Console.Write("Nhap ban kinh hinh tron:");
+            double R= double.Parse(Console.ReadLine());
+            double S =Convert.ToInt32(R*R*3.14);
+            Console.WriteLine("Dien tich hinh tron bang:" + S);
+
+
         }
     }
 }
