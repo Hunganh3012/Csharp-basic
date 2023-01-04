@@ -4,13 +4,28 @@ using System.Text;
 
 namespace OOP
 {
-     internal class Person
+    public class Person
     {
-        public string name;
-        public ushort age;
+        //mặc định
+        public Person() { }
+        //Dạng contructor có 2 đối số;
+        public Person(string name, ushort age) {
+            Console.WriteLine("Name:"+name + "Age:" + age);
+        }
+
+
+        //thuộc tính
+        private string _name;
+        private ushort _age;
+
+        //Phương thức
+        public void SetName(string name)
+        {
+            this._name = name;
+        }
         public void SayName()
         {
-            Console.WriteLine(name);
+            Console.WriteLine(this._name);
         } 
     }
 }
