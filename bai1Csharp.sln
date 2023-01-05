@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bai1Csharp", "bai1Csharp\bai1Csharp.csproj", "{9989A582-85C6-4463-AEDD-D87C684E5BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{4FC25281-89DF-4139-9476-F2B5BC2AE502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{4FC25281-89DF-4139-9476-F2B5BC2AE502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandler", "ExceptionHandler\ExceptionHandler.csproj", "{1CC4967B-EB1A-4EF9-953C-D3C6B5DDD972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleArray", "ExampleArray\ExampleArray.csproj", "{7C032611-345D-430E-A365-F1E6697E1BFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4FC25281-89DF-4139-9476-F2B5BC2AE502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FC25281-89DF-4139-9476-F2B5BC2AE502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FC25281-89DF-4139-9476-F2B5BC2AE502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC4967B-EB1A-4EF9-953C-D3C6B5DDD972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC4967B-EB1A-4EF9-953C-D3C6B5DDD972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC4967B-EB1A-4EF9-953C-D3C6B5DDD972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC4967B-EB1A-4EF9-953C-D3C6B5DDD972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C032611-345D-430E-A365-F1E6697E1BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C032611-345D-430E-A365-F1E6697E1BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C032611-345D-430E-A365-F1E6697E1BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C032611-345D-430E-A365-F1E6697E1BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

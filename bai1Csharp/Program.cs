@@ -149,6 +149,15 @@ namespace bai1Csharp
             //}
             //Console.WriteLine("Gia sao thue la :" + price);
 
+            //Bài 5: Xử lý ngoại lệ:
+            //Xử lý lỗi exceptions,
+                // 4 từ khóa xử lý ngoại lệ: try , catch,finally, throw.
+
+
+
+
+
+
 
             //Bài 13: 
             //bafi1: Viết chương trình tính tổng. in ra Sum<a> ,
@@ -177,6 +186,12 @@ namespace bai1Csharp
             double R= double.Parse(Console.ReadLine());
             double S =Convert.ToInt32(R*R*3.14);
             Console.WriteLine("Dien tich hinh tron bang:" + S);
+
+            
+
+
+
+            
 
 
         }
