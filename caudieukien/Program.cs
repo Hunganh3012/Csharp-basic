@@ -5,7 +5,37 @@ namespace caudieukien
     class Program
     {
         static void Main(string[] args)
+
+
         {
+
+            Console.WriteLine("---------------------Vòng lặp lòng nhau---------------------");
+
+            Console.WriteLine("nhâp a3");
+            int a3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("nhâp b3");
+            int b3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("nhâp k3");
+            int k3 = int.Parse(Console.ReadLine());
+            bool isExisted = false;
+            // tìm số đầu tiên chia hết cho k trong đoạn [a, b]
+            for (int i = a3; i <= b3; i++)
+            {
+                if (i % k3 == 0)
+                {
+                    Console.WriteLine(i);
+                    isExisted = true;
+                    break;
+                }
+            }
+            if (!isExisted)
+            {
+                Console.WriteLine("Khong ton tai kêt qua thoa man");
+            }
+            Console.WriteLine("Cac lenh tiep theo...");
+
+
+
             //------------Câu điều kiện 
             Console.WriteLine("----------------Cau dieu kien If else-------------------");
             Console.WriteLine("Nhap 1 so nguyen:");
@@ -91,9 +121,7 @@ namespace caudieukien
             Console.WriteLine("---------------------Do while-----------");
             //dễ
 
-            Console.WriteLine("---------------------Vòng lặp lòng nhau---------------------");
-
-
+            
 
         }
     }
