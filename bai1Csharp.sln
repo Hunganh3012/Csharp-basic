@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandler", "Excepti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleArray", "ExampleArray\ExampleArray.csproj", "{7C032611-345D-430E-A365-F1E6697E1BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuoiString", "ChuoiString\ChuoiString.csproj", "{76CA5F35-104B-4143-9628-5A3B3A470711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuoiString", "ChuoiString\ChuoiString.csproj", "{76CA5F35-104B-4143-9628-5A3B3A470711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kieudulieu", "Kieudulieu\Kieudulieu.csproj", "{99F07203-F03A-4657-B5B7-106CDB073C42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{76CA5F35-104B-4143-9628-5A3B3A470711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76CA5F35-104B-4143-9628-5A3B3A470711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76CA5F35-104B-4143-9628-5A3B3A470711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F07203-F03A-4657-B5B7-106CDB073C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F07203-F03A-4657-B5B7-106CDB073C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F07203-F03A-4657-B5B7-106CDB073C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F07203-F03A-4657-B5B7-106CDB073C42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
