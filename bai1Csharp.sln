@@ -17,17 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kieudulieu", "Kieudulieu\Ki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caudieukien", "caudieukien\caudieukien.csproj", "{D70AF418-E0F9-4A92-95E2-20CCA9CAAF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method", "method\method.csproj", "{B4640D18-07E5-4C43-B604-2228E3AA770E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "method", "method\method.csproj", "{B4640D18-07E5-4C43-B604-2228E3AA770E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thamso", "thamso\thamso.csproj", "{88549BCD-8BE4-4CD9-9127-DBEF5CA65389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thamso", "thamso\thamso.csproj", "{88549BCD-8BE4-4CD9-9127-DBEF5CA65389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doiso", "Doiso\Doiso.csproj", "{F2AC2120-2DD0-48A5-B3E2-DB0BED13C41A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doiso", "Doiso\Doiso.csproj", "{F2AC2120-2DD0-48A5-B3E2-DB0BED13C41A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamcucbo", "Hamcucbo\Hamcucbo.csproj", "{2BD5F42C-B506-4ACC-9209-CBE2545C558D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hamcucbo", "Hamcucbo\Hamcucbo.csproj", "{2BD5F42C-B506-4ACC-9209-CBE2545C558D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dequy", "dequy\dequy.csproj", "{2E6A0EEF-D968-4630-8E6B-160D74C81A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dequy", "dequy\dequy.csproj", "{2E6A0EEF-D968-4630-8E6B-160D74C81A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cautrucdulieucoban", "Cautrucdulieucoban\Cautrucdulieucoban.csproj", "{BDE38959-DE61-4FBF-901F-A323C93E39FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cautrucdulieucoban", "Cautrucdulieucoban\Cautrucdulieucoban.csproj", "{BDE38959-DE61-4FBF-901F-A323C93E39FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "LinQ\LinQ.csproj", "{48B2EB15-E894-4E63-B135-81AA179B8BB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{BDE38959-DE61-4FBF-901F-A323C93E39FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE38959-DE61-4FBF-901F-A323C93E39FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE38959-DE61-4FBF-901F-A323C93E39FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B2EB15-E894-4E63-B135-81AA179B8BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B2EB15-E894-4E63-B135-81AA179B8BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B2EB15-E894-4E63-B135-81AA179B8BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B2EB15-E894-4E63-B135-81AA179B8BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
